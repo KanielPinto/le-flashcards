@@ -16,12 +16,12 @@ export default function Logo() {
         `}
       >
         {/* Front */}
-        <div className="absolute w-full h-full flex items-center justify-center text-white font-bold text-sm rounded-lg border-[10px] border-[#6A2C70] bg-[#6A2C70] [backface-visibility:hidden]">
+        <div className="font-smythe absolute w-full h-full flex items-center justify-center text-white font-bold text-3xl rounded-lg border-[10px] border-primary bg-primary [backface-visibility:hidden]">
           LesFlashcards
         </div>
         {/* Back */}
-        <div className="absolute w-full h-full flex items-center justify-center text-white font-bold text-sm rounded-lg border-[10px] border-[#F08A5D] bg-[#F08A5D] [backface-visibility:hidden] [transform:rotateY(180deg)]">
-          LesCartesMémoire
+        <div className="font-smythe absolute w-full h-full flex items-center justify-center text-white font-bold text-2xl rounded-lg border-[10px] border-secondary bg-secondary [backface-visibility:hidden] [transform:rotateY(180deg)]">
+          LesFischesMémoire
         </div>
       </div>
     </div>
